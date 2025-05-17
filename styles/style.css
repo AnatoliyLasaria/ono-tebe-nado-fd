@@ -64,9 +64,9 @@
 .cover {
     position: relative;
     padding: 158px 50px 50px;
-    background-image: url(/images/cover.jpg);
+    background-image: url(../images/cover.jpg);
     background-size: cover;
-    z-index: -2;
+    z-index:-2;
 }
 
 .overlay {
@@ -134,8 +134,6 @@
 
 .lots {
     padding: 180px 24px 0;
-    background-color: white;
-    z-index: -3;
 }
 
 .lots__heading {
@@ -172,25 +170,28 @@
     height: 100%;
     padding: 48px 40px;
     color: #fff;
-    z-index: 0;
 }
 
 .card_type_film {
-    background-image: url(/images/card-lot-01.jpg);
+    background-image: url(../images/card-lot-01.jpg);
     background-size: cover;
     background-position: center;
+    z-index: -2;
+    
 }
 
 .card_type_book {
-    background-image: url(/images/card-lot-02.jpg);
+    background-image: url(../images/card-lot-02.jpg);
     background-size: cover;
     background-position: center;
+    z-index: -2;
 }
 
 .card_type_picture {
-    background-image: url(/images/card-lot-03.jpg);
+    background-image: url(../images/card-lot-03.jpg);
     background-size: cover;
     background-position: center;
+    z-index: -2;
 }
 
 .card__title {
